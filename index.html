@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	body,html{
+		border: 0;
+		margin: 0px;
+	}
+	#inpust{
+		outline: none;
+		border: #FFF;
+		text-align:center;
+		width: 100%;
+		font-size: 200px;
+		font-family: "微軟正黑體";
+	}
+	#lables{
+		position: absolute;
+		top: 30%;
+		max-height: -25px;
+		max-width: -25px;
+		width: 100%;
+	}
+</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var len = document.getElementById("inpust").text.length;
+		if(len > 7){
+			document.getElementById("inpust").style.font = 
+		}
+	</script>
+
+	<div id="lables">
+		<input type="text" align="center" id="inpust" placeholder="Enter Text..." />
+	</div>
+</body>
+</html>
